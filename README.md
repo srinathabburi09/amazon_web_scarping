@@ -18,13 +18,10 @@ Requests: For making HTTP requests to Amazon.
 Pandas: For data structuring and analysis.
 NumPy: For numerical operations and NaN handling.
 Matplotlib and Seaborn: (Used for potential data visualization, although specific plots are not detailed in the provided code snippet).
-How to Use
-Install Dependencies: Ensure you have all the necessary libraries installed. You can install them using pip:
-Bash
-
-pip install beautifulsoup4 requests pandas numpy matplotlib seaborn
+How to Use : 
+Install Dependencies: Ensure you have all the necessary libraries installed. You can install them using pip
 Set User-Agent: Update the HEADERS variable in the notebook with a valid User-Agent string to mimic a web browser and avoid being blocked by Amazon.
 Define Target URL: Modify the URL variable to specify the Amazon search results page you wish to scrape. Currently, it is set to search for "play station 5" on Amazon India.
 Run the Notebook: Execute all cells in the Jupyter Notebook sequentially.
-Output
+Output:
 Upon successful execution, the notebook will generate an amazon_data.csv file in the same directory, containing the scraped product details
